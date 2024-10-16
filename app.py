@@ -10,13 +10,15 @@ from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain_community.llms import OpenAI
 from langchain_openai import OpenAI,OpenAIEmbeddings
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 import shutil
 
 
 # Set your OpenAI API key
 openai.api_key = st.secrets["OPENAI_API_KEY"]
-
+# LLM
+llm = ChatOpenAI(model="gpt-4")
 # Function to create necessary directories
 def create_directories():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -83,7 +85,7 @@ def main():
         if query:
             with st.spinner("Searching for answer..."):
                 qa_chain = RetrievalQA.from_chain_type(
-                    llm=OpenAI(),
+                    llm=llm,
                     chain_type="stuff",
                     retriever=st.session_state.vectorstore.as_retriever()
                 )
