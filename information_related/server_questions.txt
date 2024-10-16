@@ -1,0 +1,28 @@
+1. What is the configuration of Asia-Server-001?
+Answer: CPU: Intel Xeon E5-2670, RAM: 64GB, Storage: 1TB SSD, OS: Ubuntu 20.04 LTS
+
+2. When was Asia-Server-002 set up, and where is it located?
+Answer: Asia-Server-002 was set up on March 10, 2022 and it is located in Data Center B, Rack 3, Slot 12.
+
+3. What was the reason for the downtime on February 12, 2023, for Asia-Server-001?
+Answer: The reason for the downtime on February 12, 2023 for Asia-Server-001 was a power failure in the data center.
+
+4. How long was Asia-Server-002 down due to the security breach attempt?
+Answer: 3 hours 30 minutes
+
+5. Which application is hosted on Asia-Server-003?
+Answer: E-commerce Platform
+
+6. What was the total downtime for Asia-Server-001?
+Answer: The total downtime for Asia-Server-001 was 2 hours 25 minutes.
+
+7. When is the next scheduled maintenance for Asia-Server-003?
+
+8. What is the timezone for all the Europe region servers?
+9. What is the configuration of Europe-Server-001?
+10. What was the reason for the downtime on June 23, 2023, for Europe-Server-002?
+11. How long was Europe-Server-003 down due to the DDoS attack?
+12. Which application is hosted on Europe-Server-002?
+13. When was Europe-Server-001 set up, and where is it located?
+14. What was the total downtime for Europe-Server-003?
+15. When is the next scheduled maintenance for Europe-Server-001?
